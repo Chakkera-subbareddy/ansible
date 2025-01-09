@@ -3,4 +3,4 @@
   tasks:
   - name: print hello world 
     ansible.bulitin.debug:
-     msg: "Hello World"
+       msg: "Hello World"
