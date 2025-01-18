@@ -11,10 +11,10 @@
     private: false
   tasks:
   - name: print the variable
-    vars: 
-      GREET: "TASK"
+    # vars: 
+    #   GREET: "TASK"
     ansible.builtin.debug:
       msg: "Hello from  {{ GREET }}"
 
   #1 command line args 
-  
+  #2 task
