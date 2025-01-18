@@ -10,7 +10,8 @@
     - ansible
     - AWS
     live: true #boolean
-      Ci: jenkins
+    tools: # map
+      ci: jenkins
       cloud: AWS
       containerization: docker
   tasks:
