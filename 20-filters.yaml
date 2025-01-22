@@ -3,5 +3,5 @@
   connection: local
   tasks:
   - name: handle undefine variables
-    ansible.biltin.debug:
-      msg: "Hello {{ person }}"
+    ansible.builtin.debug:
+      msg: "Hello {{ person | default('Ramesh') }}"
