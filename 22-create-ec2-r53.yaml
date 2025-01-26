@@ -6,7 +6,7 @@
     sg_id: sg-0bfb99678348c8a4c
     ami_id: ami-09c813fb71547fc4f
     instance_types: t3.micro
-    instance: 
+    instances: 
     - mysql
     - backend
     - frontend
