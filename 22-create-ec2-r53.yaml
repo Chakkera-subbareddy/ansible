@@ -5,7 +5,7 @@
     subnet_id: subnet-04050e2e22a6f168e
     sg_id: sg-0bfb99678348c8a4c
     ami_id: ami-09c813fb71547fc4f
-    instance_types: t3.micro
+    instance_type: t3.micro
     instances: 
     - mysql
     - backend
